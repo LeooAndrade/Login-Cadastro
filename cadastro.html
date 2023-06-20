@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-     <!--formulário de cadastro-->
-     <div id="cadastro">
-        <form method="post" action="">
-            <h1>Cadastro</h1>
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <div class="content">
+            <!--Formulário de registro-->
+            <div id="cadastro">
+                <form method="post" action="">
+                    <h1>Cadastro</h1>
 
-            <p>
-                <label for="nome-cad">Seu nome</label>
-                <input id="nome-cad" name="nome-cad" required="requerid" type="text" placeholder="ex. José da Silva"/>   
-            </p>
-            <p>
-                <label for="email-cad">Seu email</label>
-                <input id="email-cad" name="email-cad" required="requerid" type="email" placeholder="ex. contato@html.com"/>
-            </p>
+                    <p>
+                        <label for="nome-cad">Seu nome</label>
+                        <input id="nome-cad" name="nome-cad" required="requerid" type="text"
+                            placeholder="ex. José da Silva" />
+                    </p>
+                    <p>
+                        <label for="email-cad">Seu email</label>
+                        <input id="email-cad" name="email-cad" required="requerid" type="email"
+                            placeholder="ex. contato@html.com" />
+                    </p>
 
-            <p>
-                <label for="senha-cad">Sua senha</label>
-                <input id="senha-cad" name="senha-cad" requerid="requerid" type="password" placeholder="ex. 12345678"/>
-            </p>
-            <p>
-                <input type="submit" value="Cadastrar"/>
-            </p>
-            <p class="link">
-                Já tem conta?
-                <a href="login.html"> Ir para Login</a>
-            </p>
-        </form>
+                    <p>
+                        <label for="senha-cad">Sua senha</label>
+                        <input id="senha-cad" name="senha-cad" requerid="requerid" type="password"
+                            placeholder="ex. 12345678" />
+                    </p>
+                    <p>
+                        <input type="submit" value="Cadastrar" />
+                    </p>
+                    <p class="link">
+                        Já tem conta?
+                        <a href="login.html"> Ir para Login</a>
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
