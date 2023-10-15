@@ -17,10 +17,14 @@ Demonstração Incluímos capturas de tela da página de login e da página de c
 
 
 ![Captura de tela 2023-10-15 163614](https://github.com/LeooAndrade/Login-Cadastro/assets/121836285/a50e0b94-699f-41bb-b97a-1a0992e56b7c)
+
+
 Página de login
 
 
 ![Captura de tela 2023-10-15 163651](https://github.com/LeooAndrade/Login-Cadastro/assets/121836285/9b91dfea-180b-4276-84f5-8e4f74d36ae9)
+
+
 Página de Cadastro
 
 
